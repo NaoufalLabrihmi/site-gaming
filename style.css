@@ -1038,6 +1038,7 @@ img {
   }
 }
 .features{
+  margin-bottom: 20px;
   padding:5px 12%;
   font-size: 22px;
 }
@@ -1072,6 +1073,7 @@ img {
 }
 
 .faq {
+  margin-top: 40px;
   padding: 10px 12%;
   text-align: center;
   font-size: 18px;
@@ -1155,7 +1157,7 @@ input[type="checkbox"] {
 }
 .containerr{
   /* margin: 50px 0 ; */
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   height: 100%;
 }
 hr {
@@ -1392,6 +1394,7 @@ textarea.contact-form-text{
 .ps5 {
   height: auto; /* Use 'auto' instead of '100%' */
   margin-top: 150px;
+  margin: 150px 80px 10px 40px;
 }
 
 .ps5 h1,
@@ -1428,5 +1431,17 @@ footer p {
 footer a {
   color: #fff;
   text-decoration: none;
+}
+
+.lign{
+border: 1px var(--n-color) solid;
+  /* border-radius: 50%; */
+  width: 50%;
+  margin:auto;
+  margin-top: 20px;
+}
+
+.more{
+  margin-top: 25px;
 }
 
