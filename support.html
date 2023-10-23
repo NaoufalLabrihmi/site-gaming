@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Gaming Website Design Using HTML CSS & JavaScript</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- Header Section -->
+
+<header class="header" id="header">
+    <nav class="navbar container">
+       <a href="index.html" class="brandlogo"><img src="images/log ousama white.png" /></a>
+       <div class="burger" id="burger">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+       </div>
+       <div class="menu" id="menu">
+          <ul class="menu-inner">
+             <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+             <li class="menu-item"><a href="product.html" class="menu-link">Product</a></li>
+             <li class="menu-item"><a href="support.html" class="menu-link">Support</a></li>
+          </ul>
+       </div>
+       <a href="login.html" class="menu-block">Login</a>
+    </nav>
+ </header>
+
+ 
+<div class="contact-section">
+
+    <h1>Contact Us</h1>
+    <!-- <div class="border"></div> -->
+    <form class="contact-form" action="index.html" method="post">
+      <input type="text" class="contact-form-text" placeholder="Your name">
+      <input type="email" class="contact-form-text" placeholder="Your email">
+      <input type="text" class="contact-form-text" placeholder="Your phone">
+      <textarea class="contact-form-text" placeholder="Your message"></textarea>
+      <input type="submit" class="contact-form-btn" value="Send">
+    </form>
+  </div>
+
+  
+<footer class="footer">
+    <div class="footer-top">
+       <div class="cont">
+          <div class="col1">
+             <a href="#" class="brandlogo"><img src="images/log ousama white.png" /></a>
+             <ul class="media-icons">
+                <li><a href="#" title=""><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+                <li></li><a href="#" title=""><i class="fa fa-instagram"></i></a></li>
+                <li></li><a href="#" title=""><i class="fa fa-youtube-play"></i></a></li>
+             </ul>
+          </div>
+          <div class="col2">
+             <ul class="menu1">
+                   <li><h4>About</h4></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Services</a></li>
+             </ul>
+             <ul class="menu1">
+                <li><h4>About</h4></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Services</a></li>
+             </ul>
+             <ul class="menu1">
+                <li><h4>About</h4></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Services</a></li>
+             </ul>
+          </div>
+          <div class="col3">
+             <h4>Additional info</h4>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut id quae assumenda nulla voluptatum? Autem!</p>
+ 
+          </div>
+       </div>
+       <div class="footer-bottom">
+          <div class="cont">
+             <p>Lorem ipsum dolor sit amet.
+                -ALL Rights Reserved
+             </p>
+             <ul class="service-icons">
+                <li>
+                   <a href="#">
+                      <i class="fab fa-cc-amazon-pay"></i>
+                   </a>
+                </li>
+                <li>
+                   <a href="#">
+                      <i class="fab fa-cc-mastercard"></i>
+                   </a>
+                </li> 
+                <li>
+                   <a href="#">
+                      <i class="fab fa-cc-apple-pay"></i>
+                   </a>
+                </li> 
+                <li>
+                   <a href="#">
+                      <i class="fab fa-cc-stripe"></i>
+                   </a>
+                </li>  
+                <li>
+                   <a href="#">
+                      <i class="fab fa-cc-visa"></i>
+                   </a>
+                </li>   
+             </ul>
+          </div>
+       </div>
+    </div>
+ 
+ </footer>
+
+ 
+
+ <!-- <script>
+    const header = document.querySelector('.header');
+    const contactSection = document.querySelector('.contact-section');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > contactSection.offsetTop) {
+            header.classList.add('on-scroll');
+        } else {
+            header.classList.remove('on-scroll');
+        }
+    }); -->
+</script>
+<script  src="./script.js"></script>
+</body>
+</html>
