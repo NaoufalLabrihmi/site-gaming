@@ -1,2 +1,2 @@
-# gaming-website
+# Consoles+
 ![Example Image](images/console.png)
